@@ -58,7 +58,6 @@ def reduce_to_total(source_array, starting_point=0)
        return false if source_array[i] != source_array[i]
      else
        return true
-       end
        i += 1
      end
      return true
